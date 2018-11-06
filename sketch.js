@@ -3,7 +3,7 @@ var bottone;
 
 function
  preload(){
-
+  // put preload code here
 }
 
 function setup() {
@@ -18,12 +18,17 @@ button.mousePressed(faifoto);
 
 function faifoto() {
 image(video,0,0);
-
+  // put drawing code here
 }
 
 function draw() {
-//pennello
+
+
+
+
+
   strokeWeight(3);
+
   if(mouseIsPressed==true){
   stroke('#ffd800')
     // put drawing code here
@@ -34,12 +39,11 @@ noStroke()
 
   line(mouseX,mouseY,pmouseX,pmouseY);
 
-//testo
   fill('#ffd800');
   noStroke()
   textSize(18);
   textFont('Andale Mono')
   text("take a selfie and click to draw on yourself",10,20);
 
-
+  // put drawing code here
 }
